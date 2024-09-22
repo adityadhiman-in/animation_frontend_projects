@@ -8,6 +8,14 @@ Welcome to the **Animated Frontend Projects** repository! This is a collection o
 - **Three.js Integrations**: Explore 3D animations and visualizations using the Three.js library.
 - **Interactive Demos**: Hands-on examples to help you understand and implement various animation techniques.
 
+## Projects Included
+
+List of projects that are included are below:
+
+### Scroll Trigger Animation project I
+
+![alt text](images/scrollTriggerI.png)
+
 ## Getting Started
 
 To get started with any of the projects in this repository, simply clone the repository and open the desired project folder in your code editor. Follow the instructions in each project's README for setup and usage.
