@@ -21,7 +21,7 @@ List of projects that are included are below:
 To get started with any of the projects in this repository, simply clone the repository and open the desired project folder in your code editor. Follow the instructions in each project's README for setup and usage.
 
 ```bash
-git clone https://github.com/yourusername/animated_frontend_projects.git
+git clone https://github.com/adityadhiman-in/animated_frontend_projects.git
 ```
 
 ## Contributing
