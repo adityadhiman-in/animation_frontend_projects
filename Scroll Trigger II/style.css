@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background: #ff006a;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+}
+.container .logo a h1{
+    width: 6vw;
+}
+.container header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.25rem 2rem 0 2rem;
+}
+nav li a, .contact a{
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container .hero img {
+  width: 35%;
+  object-fit: cover;
+  z-index: 2;
+}
+.hero h1{
+    font-size: 16rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
