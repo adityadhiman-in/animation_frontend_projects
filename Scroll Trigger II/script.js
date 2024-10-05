@@ -1,7 +1,7 @@
-const container = document.querySelector(".container");
-const image = document.querySelector(".hero > img");
+const hero = document.querySelector(".hero");
+const image = document.querySelector(".hero >.heroImg > img");
 
-container.addEventListener("mousemove", (event) => {
+hero.addEventListener("mousemove", (event) => {
   gsap.to(image, {
     x: 1- event.x * 0.05,
     y: 1 - event.y * 0.05,
