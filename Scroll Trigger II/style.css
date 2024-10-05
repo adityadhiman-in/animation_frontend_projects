@@ -78,6 +78,9 @@ section{
   color: var(--whiteColor);
   border: 2px solid var(--tertiaryColor);
 }
+.heroContent .btns .passive :hover, header .getStarted a :hover, .aboutBtn a :hover{
+  background: red;
+}
 .heroImg{
   display: flex;
   align-items: center;
