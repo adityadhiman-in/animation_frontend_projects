@@ -52,10 +52,10 @@ section{
   flex-direction: column;
 }
 .heroContent h1{
-  font-size: 2.5rem;
+  font-size: 4.5rem;
 }
 .heroContent p{
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-top: 2rem;
 }
 .heroContent .btns{
@@ -78,9 +78,7 @@ section{
   color: var(--whiteColor);
   border: 2px solid var(--tertiaryColor);
 }
-.heroContent .btns .passive :hover, header .getStarted a :hover, .aboutBtn a :hover{
-  background: red;
-}
+
 .heroImg{
   display: flex;
   align-items: center;
@@ -131,4 +129,8 @@ img{
   border: 1px solid var(--whiteColor);
   padding: .3rem;
   color: var(--tertiaryColor);
+}
+
+a{
+  font-size: 1.5rem;
 }
